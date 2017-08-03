@@ -1,0 +1,27 @@
+app:
+  site:
+    - title: po
+      maxServers: 70
+      hostName: hdmapp-po-a*p
+         
+    - title : ch2
+      maxServers: 70
+      hostName: hdmapp-ch2-a*p
+      
+    - title: inta
+      maxServers: 10
+      hostName: hdmapp-dt-a*i
+      
+    - title: stga
+      maxServers: 10
+      hostName: hdmapp-dt-a*s
+      
+    - title: inta
+      maxServers: 10
+      hostName: hdmapp-dt-b*i
+      
+    - title: stgb
+      maxServers: 10
+      hostName: hdmapp-dt-b*s
+
+  ports: [7012, 8012, 8014,9014 ,10012]
